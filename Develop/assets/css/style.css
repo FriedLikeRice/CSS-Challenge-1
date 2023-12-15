@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;/* Sets background color to white */
+}
+
+/*header styles*/
+
+.header {/*creates space around header elements,font type of sans, font color white, and background color blue 
+    to the header*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {/* sets width and height as well as font size of 48px for header*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {/*sets font color for the header to white*/
+    color: #d9dcd6;
+}
+
+.header section {/*adds 15 px spacing , a 20px margin location on page sans serif font 
+    and a 20px font size for header section*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header section ul {/* no markers for list*/
+    list-style-type: none;
+}
+
+.header section ul li {/*Defines element appearance and behavior, adds 25px margin*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff; /*font color white for list elements*/
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;/*font size 16px for list elements*/
+}
+
+/* Body styles */
+
+.hero {/*sets background image dimensions, margin bottom, size and position*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.content {/*sets width, height and position of the section, left margin of 20px*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Section search engine optimizations*/
+/* sets margin, width, height, font, font size, font color, background color, border*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {/*sets image location and right side margin*/
+    float: left;
+    margin-right: 25px;
+}
+
+/* Section online reputation management */
+/* Sets margin, border, font, font color, font size, backgorund color*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-right {/*sets image location and left side margins*/
+    float: right;
+    margin-left: 25px;
+}
+
+/* Section social media marketing */
+/* sets margin-top, margin-bottom, font size, font family, background color, font color and position*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Section benefits */
+
+.benefits {/*sets section content area W 20% H 100%, margin 20px, spacing 20px, font size, and background color blue
+     for benefits*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* sets margin font color size and alignment for the benefit lead section*/
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets margin font color size and alignment for the benefit brand section*/
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets margin font color size and alignment for the benefit cost section*/
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer styles */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
