@@ -1,7 +1,16 @@
-* {
+* {/*sets base style for the page*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+a {/*sets font color for linke*/
+    color: #ffffff; /*font color white for list elements*/
+    text-decoration: none;
+}
+
+p {/*sets font size for paragraph elements*/
+    font-size: 16px;/*font size 16px for list elements*/
 }
 
 body {
@@ -33,22 +42,13 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {/* no markers for list*/
+.header ul {/* no markers for list*/
     list-style-type: none;
 }
 
-.header nav ul li {/*Defines element appearance and behavior, adds 25px margin*/
+.header li {/*Defines element appearance and behavior, adds 25px margin*/
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff; /*font color white for list elements*/
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;/*font size 16px for list elements*/
 }
 
 .hero {/*sets background image dimensions, margin bottom, size and position*/
@@ -65,7 +65,7 @@ p {
     margin-left: 20px;
 }
 
-.content div {
+.content div {/*set padding and margin as well as height font style background color and font color for Article section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -74,11 +74,11 @@ p {
     color: #ffffff;
 }
 
-.content img {
+.content img {/*sets max height for images in article section in pixels*/
     max-height: 200px;
 }
 
-.content img h2 {
+.content h2 {/*sets bottom margin and font size for headers in article section*/
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -105,20 +105,19 @@ p {
    background-color: #2589bd;
 }
 
-.benefits div {
-    margin-bottom: 10px;
+.benefits div {/*sets alignment bottom margin and font color*/
     text-align: center;
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits div img {
+.benefits img {/*sets image location margina nd amx width*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.footer {
+.footer {/*sets location and font size for the footer*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
