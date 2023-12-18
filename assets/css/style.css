@@ -12,7 +12,9 @@ a {/*sets font color for linke*/
 p {/*sets font size for paragraph elements*/
     font-size: 16px;/*font size 16px for list elements*/
 }
-
+.seo{
+    color: #d9dcd6;
+}
 body {
     background-color: #d9dcd6;/* Sets background color to white */
 }
